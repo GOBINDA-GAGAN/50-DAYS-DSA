@@ -7,7 +7,7 @@ class _3_secondLargest_secondSmallest {
     if (n < 2) {
       return -1;
     }
-    int small = Integer.MAX_VALUE;
+    int small = Integer.MAX_VALUE ;
     int second_small = Integer.MAX_VALUE;
     int i;
     for (i = 0; i < n; i++) {
