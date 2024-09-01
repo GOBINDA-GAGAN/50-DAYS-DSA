@@ -33,7 +33,7 @@ class _3_secondLargest_secondSmallest {
         large = arr[i];
       }
 
-      else if (arr[i] > second_large && arr[i] != large) {
+      else if (arr[i] > second_large && arr[i] != large ) {
         second_large = arr[i];
       }
     }
