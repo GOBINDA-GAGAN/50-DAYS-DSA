@@ -43,7 +43,7 @@ class _3_secondLargest_secondSmallest {
   public static void main(String[] args) {
     int[] arr = { 1, 2, 4, 7, 7, 5 };
     int n = arr.length;
-    int sS = secondSmallest(arr, n);
+    int sS = secondSmallest(arr, n) ;
     int sL = secondLargest(arr, n);
     System.out.println("Second smallest is " + sS);
     System.out.println("Second largest is " + sL);
