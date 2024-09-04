@@ -10,14 +10,14 @@ public class _10_max_consecutive {
         count++;
       } else {
         count = 0;
-      }  
-    max=  Math.max(max, count);
+      }
+      max = Math.max(max, count);
     }
     return max;
   }
 
   public static void main(String[] args) {
-    int[] arr = { 1,1,2,2,2,1,1,1,1,3,2};
+    int[] arr = { 1,2,3,3,3,1,1,2};
     int ans = max_consecutive(arr);
     System.out.println(ans);
   }
